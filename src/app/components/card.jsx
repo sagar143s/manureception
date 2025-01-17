@@ -206,7 +206,7 @@ const WeddingCard = () => {
 
   // Function to open Google Maps directions in a new tab
   const openDirections = () => {
-    const location = "Sree Padmam Auditorium, Guruvayoor, India"; // Location name or address
+    const location = "Eshaanvi convention center"; // Location name or address
     const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(location)}`;
     window.open(googleMapsUrl, "_blank");
   };
